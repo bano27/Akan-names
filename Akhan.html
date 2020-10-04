@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="text-primary">
+      <div class="page-header text-dark bg-primary">
         <h1>Akan Names</h1>
       </div>
       <br>
@@ -66,9 +66,19 @@
         </tr>
       </table>
     </div>
+    <br>
+    <div class="container"
+    <p>Below you can try out the application and find out what type of Akan name you would get during the ceremony :- </p>
+    </div>
+    <br>
     <div class="container">
         <form>
-          <div id="birthdays"></div>
+          <div class="birthdays">
+            <label>Enter your birthday</label>
+            <br>
+            <input type="date" id="birthdays">
+          </div>
+          <br>
           <div class="form-group">
             <label>Choose your Gender</label>
               <select class="form-control">
@@ -76,9 +86,15 @@
                 <option value="Female">Female</option>
               </select>
           </div>
-          <input class="btn" class="btn btn-danger" type="submit" value="submit">
+          <button class="btn btn-danger" type="submit" value="submit">Submit</button>
         </form>
     </div>
+    <div style="height:200px"></div>
+    <footer class="page-footer bg-dark text-info">
+      <div class="container">
+        <p>Read about Akan names today</p>
+      </div>
+    </footer>
     <script src="Js/scripts.js"></script>
   </body>
 </html>

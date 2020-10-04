@@ -24,8 +24,3 @@ if(bdayArray.length !== 3){
 alert ("You were born on " + currentDayName);
     }
 }
-
-//submit button style
-
-const btn = document.queryselector('.btn');
-btn.style.background = 'red';
