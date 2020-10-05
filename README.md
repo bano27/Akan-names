@@ -7,7 +7,7 @@ Akan names is a useful and user-friendly program that is dedicated to teach its 
 According to their culture, days of the week played an important role in naming their children during birth ceremonies.
 Akan names comes in handy where you could read about what names one would get on which day of the week for either males or females, after which the user then gets to try the program to find what name he/she would have been given according to the culture.
 
-follow this link to our live site [link]()   
+follow this link to our live site [link](https://bano27.github.io/Akan-names/)   
 
 ---
 
