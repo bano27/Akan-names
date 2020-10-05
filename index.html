@@ -4,18 +4,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link href="bootstrap.min.css" rel ="stylesheet" type="text/css" media="all">
     <title>Akan names bootstrap</title>
   </head>
   <body>
     <div class="container">
-      <div class="page-header text-dark bg-primary">
-        <h1>Akan Names</h1>
+      <div class="page-header text-center text-primary bg-dark">
+        <h1>Akan <span>Names</span></h1>
       </div>
-      <br>
-      <div class="float-right">
+      <div class="float-right bg-dark text-light">
           <p>This application was developed to help those seeking on naming their kin according to the <em>Ghanian culture</em>.</p>
           <p>It also is of assist to those curious on learning the Ghanian culture and naming ceremonies play a big part in the culture hence helps more people interact and embrace the culture</p>
           <p>According to the ghanian culture they used days of the week as reference of what name a child either male or female would be named if they were to be born on a certain day of the week</p>
@@ -67,32 +65,53 @@
       </table>
     </div>
     <br>
-    <div class="container"
-    <p>Below you can try out the application and find out what type of Akan name you would get during the ceremony :- </p>
-    </div>
-    <br>
     <div class="container">
-        <form>
+      <img src="pics/ghanians.jpg" alt="responsive image">
+      <br>
+      <p>Below you can fill the form and find out what type of Akan name you would be named:- </p>
+    </div>
+    <div class="container">
+        <form class="myform" onsubmit="return getAkanName()">
           <div class="birthdays">
-            <label>Enter your birthday</label>
+            <label>Century</label>
+              <input type="number" class="form-control" id="Century" placeholder="Enter the Century" required
+                      min="15" max="20" >
+            <label>Year</label>
+              <input type="number" class="form-control" id="year" placeholder="Enter the year" required
+                        min="1700" max="2050" >
+            <label>Month</label>
+              <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                        max="12">
+            <label>Day</label>
+              <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                        max="31">
+          </div>
+          <div class="container">
+            <label id="gender">Select your gender</label>
             <br>
-            <input type="date" id="birthdays">
+            Male
+            <input id="male-input" type="radio" name="gender" value="male" required>
+            Female
+            <input id="female-input" type="radio" name="gender" value="female" required>
           </div>
-          <br>
-          <div class="form-group">
-            <label>Choose your Gender</label>
-              <select class="form-control">
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-              </select>
-          </div>
-          <button class="btn btn-danger" type="submit" value="submit">Submit</button>
+          <br><br>
+          <input id="get-name" class="btn btn-danger" type="submit" value="submit">
         </form>
+        <br>
+        <form onsubmit="return clearInput()">
+          <input class="clear" type="submit" value="Clear input" class="btn btn-info">
+        </form>
+        <br>
+        <div class="container">
+          <h2 id = display-name><strong>Below is your Akan name</strong></h2>
+          <p id="display"></p>
+        </div>
     </div>
     <div style="height:200px"></div>
-    <footer class="page-footer bg-dark text-info">
+    <footer class="page-footer bg-dark text-info text-center">
       <div class="container">
         <p>Read about Akan names today</p>
+        copyright &copy; Benard Thairu Kibe 2019
       </div>
     </footer>
     <script src="Js/scripts.js"></script>

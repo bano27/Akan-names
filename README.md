@@ -1,5 +1,6 @@
 # AKAN NAMES
 ---
+
 ## Description
 
 Akan names is a useful and user-friendly program that is dedicated to teach its users/viewers an important aspect of *Ghanian culture*.
@@ -7,15 +8,24 @@ According to their culture, days of the week played an important role in naming 
 Akan names comes in handy where you could read about what names one would get on which day of the week for either males or females, after which the user then gets to try the program to find what name he/she would have been given according to the culture.
 
 follow this link to our live site [link]()   
+
 ---
+
 ### TECHNOLOGIES
 
 During the program's development stage these were the technologies/languages i used ;  *HTML
                     *Bootstrap
                     *Javascript
                     *JSfiddle
+
 ---
-#### LICENSE
+
+#### About Author
+
+This program was developed by *BENARD THAIRU KIBE*
+A student undertaking a software development program at MORINGA School.
+
+##### LICENSE
 
 MIT Copyright (c) 2020 Benard Thairu Kibe
 
